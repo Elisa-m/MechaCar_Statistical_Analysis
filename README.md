@@ -18,3 +18,22 @@ The design specifications for the MechaCar suspension coils dictate that the var
 2. Lot Summary
 
 ![](Lot_Summary.png)
+
+## T-Tests on Suspension Coils
+Assuming a significance level of 0.05, all the p-values seen below are above the significance level. Consequently, there is not enough evidence to reject the null hypothesis, and all means (means of All Lots, Lot1, Lot2 and Lot3) are statistically similar. 
+
+1. T-test All Lots
+
+![](t-test_all.png)
+
+2. T-test Lot1
+
+![](t-test_lot1.png)
+
+3. T-test Lot2
+
+![](t-test_lot2.png)
+
+4. T-test Lot3
+
+![](t-test_lot3.png)
