@@ -20,20 +20,35 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![](Lot_Summary.png)
 
 ## T-Tests on Suspension Coils
-Below you will find four one-sample t-tests conducted to determine whether there is a statistical difference between the means of sample datasets and population datasets for All Lots, Lot1, Lot2, and Lot3. The null hypothesis for these tests assumes there is no statistical difference and the alternative hypothesis assumes there is a statistical difference. Assuming a significance level of 0.05, all the p-values seen below are above the significance level. Consequently, there is not enough evidence to reject the null hypothesis, and all means (means of All Lots, Lot1, Lot2 and Lot3) are statistically similar. 
+Below you will find four one-sample t-Tests conducted to determine whether there is a statistical difference between the means of sample datasets and population datasets for All Lots, Lot1, Lot2, and Lot3. The null hypothesis for these tests assumes there is no statistical difference and the alternative hypothesis assumes there is a statistical difference. Assuming a significance level of 0.05, all the p-values seen below are above the significance level. Consequently, there is not enough evidence to reject the null hypothesis, and all means (means of All Lots, Lot1, Lot2 and Lot3) are statistically similar. 
 
-1. T-test All Lots
+1. T-Test All Lots
 
 ![](t-test_all.png)
 
-2. T-test Lot1
+2. T-Test Lot1
 
 ![](t-test_lot1.png)
 
-3. T-test Lot2
+3. T-Test Lot2
 
 ![](t-test_lot2.png)
 
-4. T-test Lot3
+4. T-Test Lot3
 
 ![](t-test_lot3.png)
+
+## Study Design: MechaCar vs Competition
+Next, we will conduct a study to quantify how MechaCar's newest SUV model performs against the competitor Lotuswagen's newest SUV model using the horsepower (hp) metric. Here's the study design: 
+
+### Metric
+Horsepower (hp)
+
+### Data
+To conduct the study, we will need a minimum of 50 horsepower (hp) random samples from each of the two SUVs: MechaCar and Lotuswagen. 
+
+### Statistical Tests
+The SUV with the highest horsepower (hp) sample mean will be the best performer, given that the two sample means are statistically different. Consequently, we will calculate the sample means of both SUVs to determine the highest sample mean. Then, we will run a two-sample t-Test to determine if there is a statistical difference between the two sample means. If there is a statisticall difference, the SUV with the highest sample mean will be the best performer. If there is no statistical difference, we cannot name a best performer. 
+
+### Null and Alternative Hypotheses
+The null hypothesis assumes no statistical difference between the two samples means, and the alternative hypothesis assumes a statistical difference between the two sample means. Failing to reject the null hypothesis will result in a tie, and rejecting the null hypothesis will result in a winner. 
